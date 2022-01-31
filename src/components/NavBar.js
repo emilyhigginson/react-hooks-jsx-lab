@@ -1,8 +1,12 @@
 import React from "react";
+import Home from "./Home";
+import About from "./About";
 
+const a = <a href="#home"> Home </a>
+const b = <a href="#about"> About </a>
 function NavBar() {
-  // update the JSX being returned!
-  return <nav>NavBar</nav>;
+  return <nav> NavBar {a} {b}
+  </nav>;
 }
 
 export default NavBar;
